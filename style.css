@@ -1,0 +1,29 @@
+* {
+    color: #181b7b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.rounded-img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 0.6em;
+    margin-bottom: 1em;
+}
+
+.navbar {
+    background-color: #5da2cc;
+}
+
+.bd-primary {
+    background-color: #5da2cc;
+}
+
+.logo {
+    width: 40px;
+}
+
+.mb-4 {
+    color: #181b7b;
+}
