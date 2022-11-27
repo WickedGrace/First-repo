@@ -19,7 +19,7 @@
   <script src="https://kit.fontawesome.com/0951ca7931.js" crossorigin="anonymous"></script>
   <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style_gallery.css">
   <title>Уголок коллекционера</title>
 </head>
 
@@ -39,7 +39,7 @@
             <a class="nav-link active" aria-current="page" href="/">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">О коллекции</a>
+            <a class="nav-link" href="about_new.html">О коллекции</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="items.html">Лоты</a>
@@ -54,17 +54,46 @@
       </div>
     </div>
   </nav>
-  <div class="container text-center my-5">
-    <div class="row">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <img class="rounded-img" src="./img/new.jpg" alt="Photo of mine" />
-        <h1 class="fw-light">Уголок коллекционера</h1>
-        <p class="lead text-muted">Покупаю, продаю и обмениваю редкие и крутые вещицы уже более 10 лет.</p>
-        <a href="https://getbootstrap.su/docs/3.4/css/" target="_blank" class="btn bd-primary">Подробнее</a>
-        <a href="https://vk.company/ru/" target="_blank" class="btn btn-light"> VK</a>
+  <div id="my-carousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="./img/Asuna.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Asuna</h5>
+          <p>Sword Art Online</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./img/DS3.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dark Siders 3</h5>
+          <p>Collector's Edition</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./img/Riders.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dark Siders Riders</h5>
+          <p>Set of 3</p>
+        </div>
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#my-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Назад</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#my-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Вперед</span>
+    </button>
   </div>
+
   <footer class="footer text-center mt-auto" style="background-color: #f1f1f1;">
     <!-- Grid container -->
     <div class="container pt-4">
