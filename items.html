@@ -17,11 +17,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/0951ca7931.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./style.css">
   <title>Лоты</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand p-0" href="/">
@@ -52,16 +54,79 @@
       </div>
     </div>
   </nav>
-  <div class="card" style="width: 18rem;">
-    <img src="./img/DS3.jpg" class="card-img-top" alt="Dark Siders 3">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
+      <div class="col">
+        <div class="card">
+          <img src="./img/DS3.jpg" class="card-img-top" alt="Dark Siders 3 Collector's Edition">
+          <div class="card-body">
+            <h5 class="card-title">Dark Siders 3 Collector's Edition</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><span class="item_type">Тип:</span> Сет</li>
+            <li class="list-group-item"><span class="item_type">Локализация:</span> Европа</li>
+            <li class="list-group-item"><span class="item_type">Состояние:</span> Отличное</li>
+            <li class="list-group-item"><span class="item_type">Платформа:</span> PS4</li>
+          </ul>
+          <div class="card-body">
+            <a href="./img/DS3.jpg" class="btn bd-primary">Смотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/Riders.jpg" class="card-img-top" alt="Dark Siders Riders">
+          <div class="card-body">
+            <h5 class="list-group">Dark Siders Riders [set of 3]</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><span class="item_type">Тип:</span> Смешанный</li>
+            <li class="list-group-item"><span class="item_type">Локализация:</span> Европа</li>
+            <li class="list-group-item"><span class="item_type">Состояние:</span> Отличное</li>
+            <li class="list-group-item"><span class="item_type">Платформа:</span> —</li>
+          </ul>
+          <div class="card-body">
+            <a href="./img/Riders.jpg" class="btn bd-primary">Смотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/Mephala.jpg" class="card-img-top" alt="TESO Summerset Mephala Statue">
+          <div class="card-body">
+            <h5 class="card-title">TESO Summerset Mephala Statue</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><span class="item_type">Тип:</span> Другое</li>
+            <li class="list-group-item"><span class="item_type">Локализация:</span> Германия</li>
+            <li class="list-group-item"><span class="item_type">Состояние:</span> Отличное</li>
+            <li class="list-group-item"><span class="item_type">Платформа:</span> —</li>
+          </ul>
+          <div class="card-body">
+            <a href="./img/Mephala.jpg" class="btn bd-primary">Смотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/photo_2020-12-16_19-53-13.jpg" class="card-img-top" alt="Dark Souls 2">
+          <div class="card-body">
+            <h5 class="card-title">Dark Souls 2 Collector's Edition</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><span>Тип:</span> Сет</li>
+            <li class="list-group-item"><span>Локализация:</span> Япония</li>
+            <li class="list-group-item"><span>Состояние:</span> Отличное</li>
+            <li class="list-group-item"><span class="item_type">Платформа:</span> PS3</li>
+          </ul>
+          <div class="card-body">
+            <a href="./img/photo_2020-12-16_19-53-13.jpg" class="btn bd-primary">Смотреть</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <footer class="footer text-center" style="background-color: #f1f1f1;">
+  <footer class="footer text-center mt-auto" style="background-color: #f1f1f1;">
     <!-- Grid container -->
     <div class="container pt-4">
       <!-- Section: Social media -->
@@ -92,7 +157,6 @@
     </div>
     <!-- Copyright -->
   </footer>
-
 
 </body>
 
