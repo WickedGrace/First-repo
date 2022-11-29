@@ -1,0 +1,33 @@
+* {
+    color: #181b7b;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #5da2cc;
+}
+
+.bd-primary {
+    background-color: #5da2cc;
+}
+
+.logo {
+    width: 40px;
+}
+
+.mb-4 {
+    color: #181b7b;
+}
+
+.accordion {
+    margin: auto;
+    padding: 15px 15px;
+    max-width: 900px;
+}
+
+.accordion-button {
+    color: #5da2cc;
+}

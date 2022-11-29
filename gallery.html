@@ -19,22 +19,14 @@
   <script src="https://kit.fontawesome.com/0951ca7931.js" crossorigin="anonymous"></script>
   <link rel="icon" href="./img/favs/favicon_rounded.ico" type="image/x-icon">
   <link rel="shortcut icon" href="./img/favs/favicon_rounded.ico" type="image/x-icon">
-<<<<<<< HEAD
-  <link rel="stylesheet" href="./style.css">
-=======
-  <link rel="stylesheet" href="./css/style.css">
->>>>>>> 7af065a (project_final_state)
-  <title>Уголок коллекционера</title>
+  <link rel="stylesheet" href="./css/style_gallery.css">
+  <title>Галерея изданий</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-<<<<<<< HEAD
-      <a class="navbar-brand p-0" href="/">
-=======
       <a class="navbar-brand p-0" href="index.html">
->>>>>>> 7af065a (project_final_state)
         <img class="logo" src="./img/favs/fourth.png" alt="Logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -44,21 +36,6 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-<<<<<<< HEAD
-            <a class="nav-link active" aria-current="page" href="/">Главная</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about/about.html">О коллекции</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./items/items.html">Лоты</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gallery_one/gallery.html">Галерея изданий</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gallery_two/gallery_2nd_ver.html">Галерея фигурок</a>
-=======
             <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
           </li>
           <li class="nav-item">
@@ -72,7 +49,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="gallery_2nd_ver.html">Галерея фигурок</a>
->>>>>>> 7af065a (project_final_state)
           </li>
           <li class="nav-item">
             <a class="nav-link" href="http://myportfolio-test.tilda.ws">Контакты</a>
@@ -81,17 +57,46 @@
       </div>
     </div>
   </nav>
-  <div class="container text-center my-5">
-    <div class="row">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <img class="rounded-img" src="./img/avatar/new.jpg" alt="Photo of mine" />
-        <h1 class="fw-light">Уголок коллекционера</h1>
-        <p class="lead text-muted">Покупаю, продаю и обмениваю редкие и крутые вещицы уже более 10 лет.</p>
-        <a href="https://getbootstrap.su/docs/3.4/css/" target="_blank" class="btn bd-primary">Подробнее</a>
-        <a href="https://vk.company/ru/" target="_blank" class="btn btn-light"> VK</a>
+  <div id="my-carousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="./img/gallery/1.jpg" class="d-block w-100 c-img" alt="Dark Siders 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dark Siders 3</h5>
+          <p>Collector's Edition</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./img/gallery/kb.jpg" class="d-block w-100 c-img" alt="Kings Bounty 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kings Bounty 2</h5>
+          <p>Collector's Edition</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./img/gallery/2.jpg" class="d-block w-100 c-img" alt="Dark Souls 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dark Souls 2</h5>
+          <p>Collector's Edition</p>
+        </div>
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#my-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Назад</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#my-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Вперед</span>
+    </button>
   </div>
+
   <footer class="footer text-center mt-auto" style="background-color: #f1f1f1;">
     <div class="container pt-4">
       <section class="mb-4">
@@ -109,7 +114,6 @@
       © 2022, все права защищены
     </div>
   </footer>
-
 </body>
 
 </html>
